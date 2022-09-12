@@ -16,7 +16,7 @@ ob_start();
         <p><input type="text" name="user_email" id="user_email" placeholder="Email"></p>
         <p><input type="password" name="user_pass" id="user_pass" placeholder="Пароль"></p>
         <p><input type="password" name="user_pass2" id="user_pass2" placeholder="Пароль еще раз"></p>
-        <button type="submit" name="submit" class="my_button">Зарегистрироваться</button>
+        <button type="submit" name="submit" class="btn btn-success">Зарегистрироваться</button>
         </form>
 <?php
 return ob_get_clean();
@@ -51,6 +51,7 @@ function enter_new_form() {
 
         <p><input type="text" name="user_email" id="user_email" placeholder="Email"></p>
         <p><input type="password" name="user_pass" id="user_pass" placeholder="Пароль"></p>
+        <p><input type="file" name="user_img" id="user_img" placeholder="Аватар"></p>
         <button type="submit" name="submit" class="new_button">Войти</button>
     </form>
     <?php
